@@ -15,7 +15,7 @@ const UseSignUp = async (userData) => {
     } catch (error) {
       // Handle sign-up error (e.g., display an error message)
       //console.log("Kamal")
-      console.log('Sign-up error:',                    error.response.status );
+      console.log('Sign-up error:',     error.response.status );
       //return error.response.data
       throw error
     }
